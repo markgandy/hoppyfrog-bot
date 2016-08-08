@@ -1,0 +1,21 @@
+{
+  "name": "hoppyfrog-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Gandy",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "3.2.2",
+    "eslint-config-standard": "5.3.5",
+    "eslint-plugin-promise": "2.0.1",
+    "eslint-plugin-standard": "2.0.0"
+  },
+  "dependencies": {
+    "telegram-node-bot": "3.0.12"
+  }
+}
